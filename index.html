@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Company</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-circle"></div>
+    </div>
+
+    <!-- Main Content -->
+    <header>
+        <h1>Welcome to <span>MusicWave</span></h1>
+    </header>
+
+    <section class="music-container">
+        <!-- Music Player -->
+        <div class="music-player">
+            <audio id="audio" src="Hey-Minnale-MassTamilan.dev.mp3"></audio>
+            <div class="player-controls">
+                <button id="playPauseBtn" class="play-btn">▶</button>
+                <div class="progress-bar" id="progressBar">
+                    <div class="progress" id="progress"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Music Cards -->
+        <div class="card-container">
+            <div class="card">
+                <img src="Amaran_2024_poster.jpg" alt="Amaran">
+                <div class="info">
+                    <h3>Amaran 2024</h3>
+                    <p>Director  : Rajkumar Preiyasamy</p>
+                    <p>Music Director : G.V.Prakshkumar</p>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="Thalaivaa_poster.jpg" alt="Album 2">
+                <div class="info">
+                    <h3>Thalivaa</h3>
+                    <p>Director : A.L.Vijay</p>
+                    <p>Music Director : G.V.Prakshkumar</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Raayan.jpg" alt="Album 3">
+                <div class="info">
+                    <h3>Raayan</h3>
+                    <p>Director : Dhanush</p>
+                    <p>Music Director : A.R.Rahaman</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="ajith_mankatha_movie_release_posters_01.jpg" alt="Album 3">
+                <div class="info">
+                    <h3>Raayan</h3>
+                    <p>Director : Mankatha</p>
+                    <p>Music Director : Yuvan Shankar Raja</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Aranmanai.jpg" alt="Album 3">
+                <div class="info">
+                    <h3>Raayan</h3>
+                    <p>Director : Sundar C</p>
+                    <p>Music Director : Hip Hop Tamizha</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
